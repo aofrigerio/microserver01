@@ -1,0 +1,16 @@
+server:
+  port: 8070
+spring:
+  application:
+  name: microserver01
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          jwt-set-uri: http://localhost:8090/auth-service/key
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
